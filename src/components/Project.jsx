@@ -31,8 +31,9 @@ const Project = () => {
             experience.
           </p>
           <div className="btn-group">
-            <a href="https://rdn-awwardwinning.netlify.app/"></a>
-            <div className="button-85">Live Demo</div>
+            <a href="https://rdn-awwardwinning.netlify.app/">
+              <div className="button-85">Live Demo</div>
+            </a>
             <a href="https://github.com/Rimonok12/awwardWinning.git">
               <div className="button-85">Github Repo</div>
             </a>
