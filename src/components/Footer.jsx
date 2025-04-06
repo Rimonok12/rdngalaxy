@@ -17,11 +17,11 @@ const Footer = () => {
       </div>
       <div className="container">
         <div className="footer__columns">
-          <div className="footer__col">
+          <div className="footer__col   footer__col--experience ">
             <h3 className="footer__col-title">
               <i data-feather="shopping-bag"></i> <span>Experiences</span>
             </h3>
-            <nav className="footer__nav">
+            <nav className="footer__nav ">
               <ul className="footer__nav-list">
                 <li className="footer__nav-item">
                   {/* <a href="" className="footer__nav-link"> */}

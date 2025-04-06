@@ -1064,4 +1064,11 @@ body {
   .about-container img {
     max-width: 90%; /* Adjust image size for mobile */
   }
+  .footer__col--experience {
+    display: none;
+  }
+  /* .footer-columns {
+    align-items: center;
+    padding: 4rem;
+  } */
 }
