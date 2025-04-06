@@ -44,7 +44,8 @@ const Contact = () => {
           <input
             className="input__field"
             type="text"
-            name="user_email"
+            email="user_email"
+            name="user_name"
             placeholder=" "
             required
           />
