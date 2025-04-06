@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import About from './components/about';
+import About from './components/About';
 import Experience from './components/Experience';
 import Project from './components/Project';
 import Contact from './components/Contact';

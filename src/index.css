@@ -1,11 +1,10 @@
+/* Import external resources before any other CSS rules */
+@import url('https://rsms.me/inter/inter.css');
 @import url('https://fonts.cdnfonts.com/css/general-sans');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
-@font-face {
-  font-family: 'circular-web';
-  src: url('/fonts/circularweb-book.woff2') format('woff2');
-}
-
-@font-face {
+/* Define font faces after @import */
+/* @font-face {
   font-family: 'general';
   src: url('/fonts/general.woff2') format('woff2');
 }
@@ -23,12 +22,25 @@
 @font-face {
   font-family: 'zentry';
   src: url('/fonts/zentry-regular.woff2') format('woff2');
-}
+} */
+
+/* Global Styles */
 html {
   display: cover;
   padding: 0;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit; /* Use the body's font unless overridden */
+  text-decoration: none;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+/* Text styles */
 .special-font b {
   font-family: 'Zentry', sans-serif;
   font-weight: bold; /* Ensure it is bold */
@@ -40,16 +52,8 @@ html {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: inherit; /* Use the body's font unless overridden */
-  text-decoration: none;
-  scroll-behavior: smooth;
-  list-style: none;
-}
 
+/* Header Styles */
 header {
   position: fixed;
   top: 1rem;
@@ -90,6 +94,7 @@ li a {
   font-weight: 300;
   transition: 0.3s ease-in-out;
 }
+
 .h1name {
   background: linear-gradient(43deg, #ffcc70 0%, #c850c0 46%, #4158d0 100%);
   /* background: linear-gradient(to right, #d6c7ff, #ab8bff); */
@@ -112,6 +117,7 @@ li a:before {
 li a:hover:before {
   width: 100%; /* When hovering, the underline expands to the full width of the link */
 }
+
 .visit-btn {
   background-size: 200% 200%;
   transition: background-position 0.5s ease-in-out;
@@ -603,7 +609,6 @@ section {
 }
 
 /*  */
-@import url('https://rsms.me/inter/inter.css');
 
 :root {
   --color-light: white;
@@ -754,8 +759,6 @@ button + button {
 }
 
 /* FOOTER */
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
 /* html,
 body {
