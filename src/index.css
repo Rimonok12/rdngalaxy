@@ -1067,8 +1067,14 @@ body {
   .footer__col--experience {
     display: none;
   }
-  /* .footer-columns {
-    align-items: center;
-    padding: 4rem;
-  } */
+  .footer__parralax-moto {
+    position: absolute;
+    left: 69%;
+    transform: translateX(-50%);
+    z-index: 10; /* keep it visible */
+  }
+  .footer__parralax-voiture {
+    left: -20%;
+    /* right: 20%; */
+  }
 }
